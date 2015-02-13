@@ -1,0 +1,63 @@
+body {
+    background: #222;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-content {
+    color: white;
+    font-family: 'Helvetica Neue', 'Roboto', sans-serif;
+    font-size: 2em;
+    width: 75vw;
+}
+
+.logo {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-family: 'Helvetica Neue', 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.you {
+    background: #EC047D;
+    padding: 5px;
+    transition: 0.2s all ease-in;
+}
+
+.you:hover {
+    background: #E8298D;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: white;
+    }
+
+    .quote-content {
+        color: #222;
+        width: 35vw;
+    }
+}
