@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
+    "autoprefixer-loader": "^1.1.0",
     "jsx-loader": "^0.12.2",
     "react-hot-loader": "^1.1.1",
     "webpack": "^1.5.1",
